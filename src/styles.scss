@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Pixilizer";
+    src: url(/fonts/PixelizerBold.ttf);
+}
+
+body {
+    margin: 0px;
+    background: {
+        color: rgb(22, 22, 22);
+        image: url(/bg-maze.svg);
+        repeat: no-repeat;
+        position: right;
+        size: 1000px
+    };
+    height: 450px;
+}
+
+.container {
+    margin-left: 120px;
+}
+
+.base-font {
+    font: {
+        family: 'Pixilizer', 'Arial', sans-serif;
+        size: 16px;
+    };
+    color: #FFFF;
+}
+
+.gray {
+    color: #5e5e5e;
+}
+
+.line-h160 {
+    line-height: 160%;
+}
+
+.fz-10 {
+    font-size: 10px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.fz-26 {
+    font-size: 26px;
+}
+
+.fz-64 {
+    font-size: 64px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.grad-pb {
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to right, #0CBAF1, #E95CE9);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
